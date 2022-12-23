@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Loja Virtual - Camisetas</title>
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="57x57" href="./assets/images/favicons/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./assets/images/favicons/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./assets/images/favicons/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./assets/images/favicons/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./assets/images/favicons/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./assets/images/favicons/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./assets/images/favicons/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./assets/images/favicons/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/images/favicons/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="./assets/images/favicons/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./assets/images/favicons/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/images/favicons/favicon-16x16.png">
+  <link rel="manifest" href="./assets/images/favicons/manifest.json">
+  <meta name="msapplication-TileColor" content="#FFC107">
+  <meta name="msapplication-TileImage" content="./assets/images/favicons/ms-icon-144x144.png">
+  <meta name="theme-color" content="#FFC107">
+  <!-- end Favicons -->
+
+  <style>
+    .row2{
+      margin-left: 40%;
+    }
+  </style>
+
+  <!-- Css -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- header -->
+  <header class="container-fluid">
+    <!-- container -->
+    <section class="container">
+      <!-- row -->
+      <article class="row d-flex align-items-center">
+
+        <!-- logo -->
+        <a href="index.html" class="col-md-2 d-flex justify-content-center">
+          <img src="logo.png" class="img-fluid" alt="Classics">
+        </a>
+
+        <!-- buscador -->
+        <form action="#" class="col-md-7 d-flex align-items-center">
+          <input type="text" name="name" placeholder="Procurar Roupas aqui">
+
+          <button class="d-flex align-items-center">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+              <path fill-rule="evenodd"
+                d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+            </svg>
+          </button>
+        </form>
+
+        <!-- administrativo do cliente -->
+        <ul class="col-md-3 nav d-flex align-items-center justify-content-around">
+          <li class="nav-item">
+            <a href="https://api.whatsapp.com/send?phone=5585986599082&text=Ol%C3%A1%2C%20gostaria%20de%20adquirir%20camisas%20tailandesas">
+              <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd"
+                  d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+              </svg>
+
+              Peça Pelo Whatsapp
+            </a>
+          </li>
+
+
+
+      </article>
+      <!-- row -->
+    </section>
+    <!-- end container -->
+  </header>
+  <!-- end header -->
+
+  <!-- menu do site -->
+  <nav class="container-fluid nav-produtos">
+    <!-- container -->
+    <section class="container">
+      <!-- menu -->
+      <ul class="nav">
+        <!-- lista de itens -->
+        <li class="col-xl-2 col-lg-3 col-md-12 nav-item d-flex align-items-center">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+          </svg>
+          Camisas de Clubes
+
+          <!-- submenu -->
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a href="#">
+                Lançamentos
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">
+                Brasileirão
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">
+                Europa
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">
+                Diversas
+              </a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#">
+                Promoção
+              </a>
+            </li>
+          </ul>
+          <!-- end submenu -->
+        </li>
+
+        <!-- lista de itens -->
+        <li class="col-xl-2 col-lg-3 col-md-12 nav-item d-flex align-items-center">
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+          </svg>
+          Peça já 
+        </li>
+      </ul>
+      <!-- menu -->
+    </section>
+    <!-- end container -->
+  </nav>
+  <!-- end menu do site -->
+
+  <!-- main -->
+  <main>
+
+
+    <!-- container produtos -->
+    <section class="container produtos">
+
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Camisetas</li>
+        </ol>
+      </nav>
+
+      <!-- title -->
+      <h1>Veja todos os nosso produtos mais vendidos</h1>
+      <p>
+        Todos os meses disponibilizamos uma grande variedade de camisas tailandesas que tem a melhor qualidade através de
+        lançamentos exclusivos. nosso atendimento é todo por whatsapp, aqui você pode ver alguns de nossos produtos mas vendemos uma gama enorme de produtos, qualquer duvida entre em contato conosco
+      </p>
+      <!-- listagem dos produtos -->
+      <article class="row">
+
+       <!-- produtos -->
+       <a href="#" class="produtos-container col-md-3">
+        <!-- imagem do produto -->
+        <img src="./camisas/brazil.jpeg" class="img-fluid" alt="Cropped rosa">
+
+        <!-- itens do produto -->
+        <article class="produtos-itens">
+          <!-- title produto -->
+          <h2>Brasil 2022</h2>
+          <!-- preco -->
+          <strong class="produtos-preco">
+            R$ 119,99
+          </strong>
+        </article>
+        <!-- end itens do produto -->
+      </a>
+      <!-- end produtos -->
+
+      <!-- produtos -->
+      <a href="./camisas/flamengo.jpg" class="produtos-container col-md-3">
+        <!-- imagem do produto -->
+        <img src="./camisabrasileira/palmeiras.jpeg" class="img-fluid" alt="Camiseta manga comprida">
+
+        <!-- itens do produto -->
+        <article class="produtos-itens">
+          <!-- title produto -->
+          <h2>Palmeiras</h2>
+
+
+
+          <!-- preco -->
+          <strong class="produtos-preco">
+            R$ 119,99
+          </strong>
+        </article>
+        <!-- end itens do produto -->
+      </a>
+      <!-- end produtos -->
+
+      <!-- produtos -->
+      <a href="#" class="produtos-container col-md-3">
+        <!-- imagem do produto -->
+        <img src="./camisas/brazil.jpeg" class="img-fluid" alt="Camiseta listrada">
+
+        <!-- itens do produto -->
+        <article class="produtos-itens">
+          <!-- title produto -->
+          <h2>Brasil 2022</h2>
+
+
+          <!-- preco -->
+          <strong class="produtos-preco">
+            R$ 119,99
+          </strong>
+        </article>
+        <!-- end itens do produto -->
+      </a>
+      <!-- end produtos -->
+
+      <!-- produtos -->
+      <a href="#" class="produtos-container col-md-3">
+        <!-- imagem do produto -->
+        <img src="./camisabrasileira/fortaleza.jpeg" class="img-fluid" alt="Saia plisada">
+
+        <!-- itens do produto -->
+        <article class="produtos-itens">
+          <!-- title produto -->
+          <h2>Fortaleza</h2>
+
+
+          <!-- preco -->
+          <strong class="produtos-preco">
+            R$ 117,90
+          </strong>
+        </article>
+        <!-- end itens do produto -->
+      </a>
+      <!-- end produtos -->
+
+      <!-- produtos -->
+      <a href="#" class="produtos-container col-md-3">
+        <!-- imagem do produto -->
+        <img src="./camisabrasileira/fortaleza.jpeg" class="img-fluid" alt="Cropped rosa">
+
+        <!-- itens do produto -->
+        <article class="produtos-itens">
+          <!-- title produto -->
+          <h2>Fortaleza</h2>
+
+          <!-- preco -->
+          <strong class="produtos-preco">
+            R$ 119,99
+          </strong>
+        </article>
+        <!-- end itens do produto -->
+      </a>
+      <!-- end produtos -->
+
+      <!-- produtos -->
+      <a href="#" class="produtos-container col-md-3">
+        <!-- imagem do produto -->
+        <img src="./camisas/real.jpeg" class="img-fluid" alt="Camiseta manga comprida">
+
+        <!-- itens do produto -->
+        <article class="produtos-itens">
+          <!-- title produto -->
+          <h2>Real Madrid</h2>
+
+          <!-- preco -->
+          <strong class="produtos-preco">
+            R$ 119,99
+          </strong>
+        </article>
+        <!-- end itens do produto -->
+      </a>
+      <!-- end produtos -->
+
+      <!-- produtos -->
+      <a href="#" class="produtos-container col-md-3">
+        <!-- imagem do produto -->
+        <img src="./camisas/united.jpg" class="img-fluid" alt="Camiseta listrada">
+
+        <!-- itens do produto -->
+        <article class="produtos-itens">
+          <!-- title produto -->
+          <h2>Manchester United</h2>
+
+
+          <!-- preco -->
+          <strong class="produtos-preco">
+            R$ 119,99
+          </strong>
+        </article>
+        <!-- end itens do produto -->
+      </a>
+      <!-- end produtos -->
+
+      <!-- produtos -->
+      <a href="#" class="produtos-container col-md-3">
+        <!-- imagem do produto -->
+        <img src="./camisabrasileira/flamengo.jpg" class="img-fluid" alt="Saia plisada">
+
+        <!-- itens do produto -->
+        <article class="produtos-itens">
+          <!-- title produto -->
+          <h2>Flamengo</h2>
+
+          <!-- preco -->
+          <strong class="produtos-preco">
+            R$ 117,90
+          </strong>
+        </article>
+        <!-- end itens do produto -->
+      </a>
+      <!-- end produtos -->
+
+      <!-- produtos -->
+      <a href="#" class="produtos-container col-md-3">
+        <!-- imagem do produto -->
+        <img src="./camisas/real.jpeg" class="img-fluid" alt="Cropped rosa">
+
+        <!-- itens do produto -->
+        <article class="produtos-itens">
+          <!-- title produto -->
+          <h2>Real Madrid</h2>
+
+
+          <!-- preco -->
+          <strong class="produtos-preco">
+            R$ 119,99
+          </strong>
+        </article>
+        <!-- end itens do produto -->
+      </a>
+      <!-- end produtos -->
+
+      <!-- produtos -->
+      <a href="#" class="produtos-container col-md-3">
+        <!-- imagem do produto -->
+        <img src="./camisas/brazil.jpeg" class="img-fluid" alt="Camiseta manga comprida">
+
+        <!-- itens do produto -->
+        <article class="produtos-itens">
+          <!-- title produto -->
+          <h2>Brasil 2022</h2>
+
+          <!-- preco -->
+          <strong class="produtos-preco">
+            R$ 119,99
+          </strong>
+        </article>
+        <!-- end itens do produto -->
+      </a>
+      <!-- end produtos -->
+
+      <!-- produtos -->
+      <a href="#" class="produtos-container col-md-3">
+        <!-- imagem do produto -->
+        <img src="./camisas/united.jpg" class="img-fluid" alt="Camiseta listrada">
+
+        <!-- itens do produto -->
+        <article class="produtos-itens">
+          <!-- title produto -->
+          <h2>Manchester United</h2>
+
+          <!-- preco -->
+          <strong class="produtos-preco">
+            R$ 119,99
+          </strong>
+        </article>
+        <!-- end itens do produto -->
+      </a>
+      <!-- end produtos -->
+
+      <!-- produtos -->
+      <a href="#" class="produtos-container col-md-3">
+        <!-- imagem do produto -->
+        <img src="./camisabrasileira/palmeiras.jpeg" class="img-fluid" alt="Saia plisada">
+
+        <!-- itens do produto -->
+        <article class="produtos-itens">
+          <!-- title produto -->
+          <h2>Palmeiras</h2>
+
+          <!-- preco -->
+          <strong class="produtos-preco">
+            R$ 117,90
+          </strong>
+        </article>
+        <!-- end itens do produto -->
+      </a>
+      <!-- end produtos -->
+
+      </article>
+      <!-- listagem dos produtos -->
+      <!-- end container produtos -->
+  </main>
+  <!-- end main -->
+
+  <!-- Footer -->
+  <footer class="container-fluid">
+    <!-- container -->
+    <section class="container">
+      <!-- menus -->
+      <section class="row2">
+        <!-- atendimento -->
+        <article class="col-md-4">
+          <h4>
+            Atendimento
+          </h4>
+          <!-- links -->
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a href="tel:+5511999999999">(85) 98659-9082</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="mailto:jorgenascimento7676@gmail.com">jorgenascimento7676@gmail.com</a>
+            </li>
+
+            <li class="nav-item">
+              Horário de atendimento on-line: Segunda à sexta das 9:00 até as 17:30h
+            </li>
+          </ul>
+        </article>
+        <!-- end atendimento -->
+      </section>
+      <!-- end menus -->
+    </section>
+    <!-- end container -->
+
+  </footer>
+  <!-- end Footer-->
+
+
+
+  <!-- Arquivos Bootstrap -->
+  <script src="./assets/js/jquery.js"></script>
+  <script src="./assets/js/popper.js"></script>
+  <script src="./assets/js/bootstrap.js"></script>
+</body>
+
+</html>
